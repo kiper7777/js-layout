@@ -8,7 +8,6 @@ export const createElement = (tag, className, text) => {
   if (text) {
     elem.innerHTML = text
   }
-
   return elem
 }
 
@@ -41,7 +40,6 @@ export const createHeader = () => {
 
   HEADER_BUTTON_LIST.forEach((params) => {
     const button = createElement('button', 'button')
-
     const img = createElement('img')
 
     Object.entries(params).forEach(([key, value]) => {
@@ -52,13 +50,12 @@ export const createHeader = () => {
     // header.append(button)
 
     button.insertAdjacentElement('beforeend', img)
-
     header.insertAdjacentElement('beforeend', button)
   })
 
   return header
 }
-// ====
+// ======
 
 export const createContainerTab = () => {
   const div = createElement('div', 'tab__list')
@@ -75,6 +72,7 @@ export const createContainerTab = () => {
 
     div.insertAdjacentElement('beforeend', tab)
   })
+
   return div
 }
 
