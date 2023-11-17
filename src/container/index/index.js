@@ -118,26 +118,26 @@ page.append(containerMain)
 
 // ===================================
 
-// function openTab(evt, tabName) {
+// function openTab(event, tabName) {
 //   // Declare all variables
-//   var i, tabcontent, tablinks
+//   var i, tab__list, tab__button
 
-//   // Get all elements with class="tabcontent" and hide them
-//   tabcontent = document.getElementsByClassName('tabcontent')
-//   for (i = 0; i < tabcontent.length; i++) {
-//     tabcontent[i].style.display = 'none'
+//   // Get all elements with class="tab__list" and hide them
+//   tab__list = document.getElementsByClassName('tab__list')
+//   for (i = 0; i < tab__list.length; i++) {
+//     tab__list[i].style.display = 'none'
 //   }
 
-//   // Get all elements with class="tablinks" and remove the class "active"
-//   tablinks = document.getElementsByClassName('tablinks')
-//   for (i = 0; i < tablinks.length; i++) {
-//     tablinks[i].className = tablinks[i].className.replace(
-//       'active',
-//       '',
-//     )
+//   // Get all elements with class="tab__button" and remove the class "active"
+//   tab__button =
+//     document.getElementsByClassName('tab__button')
+//   for (i = 0; i < tab__button.length; i++) {
+//     tab__button[i].className = tab__button[
+//       i
+//     ].className.replace('active', '')
 //   }
 
 //   // Show the current tab, and add an "active" class to the button that opened the tab
 //   document.getElementById(tabName).style.display = 'block'
-//   evt.currentTarget.className += 'active'
+//   event.currentTarget.className += 'active'
 // }

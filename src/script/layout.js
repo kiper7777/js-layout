@@ -67,7 +67,7 @@ export const createContainerTab = () => {
     const tab = createElement(
       'div',
       params.active
-        ? 'button tab_button tab__active'
+        ? 'button tab__button tab__active'
         : 'button tab__button',
     )
 

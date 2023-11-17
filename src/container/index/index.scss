@@ -139,8 +139,29 @@ main {
 }
 
 /* Create an active/current tablink class */
-.tab__button tab__active {
+.tab__active {
     background-color: #ccc;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    background-color: inherit;
+	align-items: center;
+	gap: 12px;
+	color: #888888;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+
+
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 42px;
+    transition: 0.3s;
+	padding-bottom: 20px;
 }
 
 /* Style the tab content */
