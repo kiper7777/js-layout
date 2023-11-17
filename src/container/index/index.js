@@ -19,9 +19,6 @@ page.append(containerTab)
 const containerMain = createMain()
 page.append(containerMain)
 
-const main_info = main_info()
-page.append(main_info)
-
 // // ==================================
 
 // import {
